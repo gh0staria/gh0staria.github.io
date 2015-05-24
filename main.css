@@ -7,7 +7,7 @@ body {
 	width: 25vw;
 	float: left;
 }
-.maindiv {
+#maindiv {
 	float: right;
 	background: #ffffff;
 	height:100vh;
