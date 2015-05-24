@@ -8,6 +8,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		
 		<link rel="stylesheet" href="main.css">
+		<script src="script.js"></script>
 		
 		<title>gh0stlabs</title>
 	</head>
@@ -31,11 +32,11 @@
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse">
 								<div class="panel-body">
-									<a href="javascript:void(0)">Project 1</a><br>
-									<a href="javascript:void(0)">Project 2</a><br>
-									<a href="javascript:void(0)">Project 3</a><br>
-									<a href="javascript:void(0)">Project 4</a><br>
-									<a href="javascript:void(0)">Project 5</a><br>
+									<p onclick="project1()">Project 1</p>
+									<p onclick="alertViewer()">Project 2</p>
+									<p onclick="alertViewer()">Project 3</p>
+									<p onclick="alertViewer()">Project 4</p>
+									<p onclick="alertViewer()">Project 5</p>
 								</div>
 							</div>
 						</div>
@@ -78,7 +79,9 @@
 					</div>
 				</div>
 				<div class="col-md-9 maindiv">
-					
+					<h3 id="proj-name">[Project Name]</h3>
+					<p id="proj-details">Click on a project in the sidebar to view details about it.</p>
+					<a href="javascript:void(0)" id="proj-link">Project link</a>
 				</div>
 			</div>
 		</div>
