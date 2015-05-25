@@ -37,3 +37,24 @@ h1 {
 	font-size: 72px;
 	margin: 0;
 }
+/* MAIN CONTENT */
+.github-widget {
+	margin: 10px 0;
+}
+/* CATEGORY PAGE */
+.categories {
+	text-align: center;
+}
+/* CAROUSEL */
+.carousel-control {
+	display: none;
+}
+.carousel-indicators {
+	bottom: -25px;
+}
+.carousel-indicators li {
+  background-color: #ffffff;
+}
+.carousel-indicators .active {
+  background-color: #000000;
+}
