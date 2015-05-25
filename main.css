@@ -45,6 +45,15 @@ h1 {
 .categories {
 	text-align: center;
 }
+.proj-btn {
+	background: #000000;
+}
+.proj-btn:hover {
+	background: #333333;
+}
+.well {
+	background: #fcfcfc;
+}
 /* CAROUSEL */
 .carousel-control {
 	display: none;
