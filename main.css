@@ -54,6 +54,9 @@ h1 {
 .well {
 	background: #fcfcfc;
 }
+.glyphicon {
+	font-size: 16px;
+}
 /* CAROUSEL */
 .carousel-control {
 	display: none;
