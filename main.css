@@ -70,3 +70,7 @@ h1 {
 .carousel-indicators .active {
   background-color: #000000;
 }
+/* ABOUT PAGE */
+.profile-img {
+	border-radius: 100%;
+}
