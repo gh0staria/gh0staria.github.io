@@ -81,3 +81,12 @@ dt {
 .small-icon {
 	font-size: 12px;
 }
+/* MEDIA QUERIES */
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 48px;
+	}
+}
