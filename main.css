@@ -74,3 +74,10 @@ h1 {
 .profile-img {
 	border-radius: 100%;
 }
+/* BROWSE ALL PAGE */
+dt {
+	font-size: 16px;
+}
+.small-icon {
+	font-size: 12px;
+}
