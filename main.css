@@ -1,19 +1,39 @@
+/* NAVBAR */
 .navbar {
+	border: none;
+	border-top: 1px solid #080808;
 	border-radius: 0;
-}
-.main-container {
-	padding: 0;
+	background: #000000;
 }
 .navbar-nav>li {
 	float: none;
 	padding: 0;
 }
-.container2 {
+.nopadding {
 	padding: 0;
 }
+.nomargin {
+	margin: 0;
+}
+.main-button {
+	margin-right: 30px;
+}
+/* DROPDOWN */
 .dropdown-menu {
-  width: 100%; 
+	width: 100%;
+	padding: 15px;
 }
 .btn{
- width: 100%;
+	width: 100%;
+}
+/* HEADER */
+.banner {
+	background: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding: 15px 0;
+}
+h1 {
+	font-size: 72px;
+	margin: 0;
 }
