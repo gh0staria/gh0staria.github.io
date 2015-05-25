@@ -1,25 +1,19 @@
-body {
-	margin: 0;
+.navbar {
+	border-radius: 0;
 }
-.sidebar {
-	background: #dedede;
-	height:100vh;
-	width: 25vw;
-	float: left;
+.main-container {
+	padding: 0;
 }
-#maindiv {
-	float: right;
-	background: #ffffff;
-	height:100vh;
-	width: 75vw;
-	text-align: left;
+.navbar-nav>li {
+	float: none;
+	padding: 0;
 }
-a:hover, a:focus {
-	text-decoration: none;
+.container2 {
+	padding: 0;
 }
-.glyphicon {
-	font-size: 12px;
+.dropdown-menu {
+  width: 100%; 
 }
-.homeicon {
-	font-size: 20px;
+.btn{
+ width: 100%;
 }
