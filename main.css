@@ -4,11 +4,16 @@
 	color: #ffffff;
 	text-align: center;
 	padding: 15px 0;
+	text-decoration: none;
 }
 h1 {
 	font-size: 72px;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+.toplink:hover {
+	text-decoration: none;
 	color: #ffffff;
 }
 /* CAROUSEL */
@@ -28,6 +33,9 @@ h1 {
 .carousel-inner > .item > a > img{
 	margin: auto;
 }
+.wrench {
+	font-size: 72px;
+}
 .whitespace {
 	margin: 50px;
 }
@@ -40,7 +48,9 @@ dt {
 }
 /* MEDIA QUERIES */
 @media (max-width: 767px) {
-	
+	.slimpadding {
+		padding: 3px;
+	}
 }
 @media (max-width: 500px) {
 	h1 {
