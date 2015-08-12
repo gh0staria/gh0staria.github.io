@@ -1,0 +1,17 @@
+.gamebox {
+	/*background: #e2e2e2;*/
+	width: 100%;
+	height: auto;
+	margin: 15px auto;
+}
+canvas {
+	margin: 0 auto;
+}
+.details-box {
+	width: 100%;
+	height: auto;
+	margin-bottom: 75px;
+}
+.table {
+	margin: 5px;
+}
