@@ -4,6 +4,9 @@
 	height: auto;
 	margin: 15px auto;
 }
+.gameContainer {
+	margin-top: 100px;
+}
 canvas {
 	margin: 0 auto;
 }
