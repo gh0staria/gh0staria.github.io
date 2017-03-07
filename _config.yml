@@ -22,7 +22,8 @@ twitter_username: lizgwigg
 github_username: lizgw
 
 # Pagination
-paginate: 10
+permalink: /blog/:categories/:year/:month/:day/:title/
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 collections:
@@ -38,6 +39,7 @@ collections:
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock

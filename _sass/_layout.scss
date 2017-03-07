@@ -93,14 +93,30 @@ text-align: center;
 max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
 text-align: center;
 width: 100%;
-position: fixed;
-bottom: 50px;
 }
 .paginationicon {
 font-size: 50px;
 a {
 color: $theme-color;
     }
+}
+// next/last post on page
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
 }
 /**
  * Page content   **********************************************************
