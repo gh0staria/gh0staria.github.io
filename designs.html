@@ -1,10 +1,10 @@
 ---
 layout: page
-title: portfolio
-permalink: /portfolio/
+title: designs
+permalink: /designs/
 ---
 
-{% for project in site.portfolio %}
+{% for project in site.designs %}
 
 {% if project.redirect %}
 <div class="project">
@@ -14,7 +14,7 @@ permalink: /portfolio/
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
@@ -32,7 +32,7 @@ permalink: /portfolio/
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
