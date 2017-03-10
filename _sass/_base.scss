@@ -54,6 +54,9 @@ body {
     font-weight: 100;
     color: $text-color;
     background-color: $background-color;
+    /* modified geometry2 pattern by Tori Pantha on Subtle Patterns. */
+    background-image: url("/img/geometry2-lighter.png");
+    background-repeat: repeat;
     -webkit-text-size-adjust: 100%;
 }
 
