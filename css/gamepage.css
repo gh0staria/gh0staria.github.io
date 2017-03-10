@@ -1,5 +1,8 @@
 body {
  	background: #fdfdfd;
+    /* modified geometry2 pattern by Tori Pantha on Subtle Patterns. */
+    background-image: url("https://lizgw.github.io/img/geometry2-lighter.png");
+    background-repeat: repeat;
 	font-family: 'Montserrat', sans-serif;
 }
 .row {
