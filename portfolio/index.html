@@ -1,4 +1,12 @@
 ---
-layout: page
+layout: grid
+title: Portfolio
 ---
-<h1>????? i'm tryin my best here</h1>
+
+{% for design in site.designs reversed %}
+
+<div class="grid-item">
+	<img src="{{ design.thumbnail }}" alt="{{design.alttext}}">	
+</div>
+
+{% endfor %}
