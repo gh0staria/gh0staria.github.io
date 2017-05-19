@@ -19,6 +19,13 @@
         <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
 		<div class="entry-content">
+			<div class="grid-sorting">
+				<a href="#" data-group="all" class="active">All</a>
+				<a href="#" data-group="apparel">Apparel</a>
+				<a href="#" data-group="posterscontests">Posters & Contests</a>
+				<a href="#" data-group="packaging">Packaging</a>
+				<a href="#" data-group="logos">Logos</a>
+			</div> 
 			<div id="grid" data-columns>
 				{{ content }}
 			</div>
