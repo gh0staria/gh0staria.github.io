@@ -5,7 +5,7 @@ title: Portfolio
 
 {% for design in site.designs reversed %}
 
-<div class="grid-item">
+<div class="grid-item {{design.gridcategory}}">
 	<img src="{{ design.thumbnail }}" alt="{{design.alttext}}">	
 </div>
 

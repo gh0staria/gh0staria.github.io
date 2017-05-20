@@ -20,11 +20,11 @@
       </header>
 		<div class="entry-content">
 			<div class="grid-sorting">
-				<a href="#" data-group="all" class="active">All</a>
-				<a href="#" data-group="apparel">Apparel</a>
-				<a href="#" data-group="posterscontests">Posters & Contests</a>
-				<a href="#" data-group="packaging">Packaging</a>
-				<a href="#" data-group="logos">Logos</a>
+				<button type="button" onclick="showAll()" class="active">All</button>
+				<button type="button" onclick="showCategory('apparel')">Apparel</button>
+				<button type="button" onclick="showCategory('posterscontests')">Posters &amp; Contests</button>
+				<button type="button" onclick="showCategory('packaging')">Packaging</button>
+				<button type="button" onclick="showCategory('logos')">Logos</button>
 			</div> 
 			<div id="grid" data-columns>
 				{{ content }}
@@ -42,6 +42,6 @@
 
 {% include scripts.html %}
 <script src="/assets/js/salvattore.min.js"></script>
-
+<script src="/assets/js/grid.js"></script>
 </body>
 </html>
