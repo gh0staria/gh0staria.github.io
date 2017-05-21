@@ -20,13 +20,14 @@
       </header>
 		<div class="entry-content">
 			<div class="grid-sorting">
-				<button type="button" onclick="showAll()" class="active">All</button>
-				<button type="button" onclick="showCategory('apparel')">Apparel</button>
-				<button type="button" onclick="showCategory('posterscontests')">Posters &amp; Contests</button>
-				<button type="button" onclick="showCategory('packaging')">Packaging</button>
-				<button type="button" onclick="showCategory('logos')">Logos</button>
+				<button type="button" data-filter="" class="active filters-btn">All</button>
+				<button type="button" data-filter="apparel" class="filters-btn">Apparel</button>
+				<button type="button" data-filter="posterscontests" class="filters-btn">Posters &amp; Contests</button>
+				<button type="button" data-filter="packaging" class="filters-btn">Packaging</button>
+				<button type="button" data-filter="logos" class="filters-btn">Logos</button>
 			</div> 
-			<div id="grid" data-columns>
+			<div class="grid">
+				<div class="grid-sizer"></div>
 				{{ content }}
 			</div>
 		</div>
@@ -41,7 +42,8 @@
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}
-<script src="/assets/js/salvattore.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="/assets/js/grid.js"></script>
 </body>
 </html>
