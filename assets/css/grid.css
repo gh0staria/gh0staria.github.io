@@ -7,22 +7,47 @@
 }
 
 .grid-sorting {
-	margin-bottom: 10px;
+	width: 100%;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
-.grid-sorting a {
-	display: inline;
-	margin: 5px 20px;
-	padding: 5px;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 10px;
-	background-color: #f7f7f7;
+.grid-sorting:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.grid-sorting button {
+	width: 20%;
+	border: 2px solid #ffffff;
+	background-color: #f8f8f8;
+	padding: 10px;
+	font-size: 1em;
+	float: left;
+	min-height: 4em;
+}
+
+.grid-sorting button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.grid-sorting button:first-child {
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.grid-sorting button:last-child {
+    border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.grid-sorting button:hover {
+    background-color: #d8e3dc;
 }
 
 .active {
-	border-radius: 100%;
+	background-color: #bbd6bf !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -32,6 +57,15 @@
 	
 	.grid-sizer,
 	.grid-item { width: 48%; }
+	
+	.grid-sorting button {
+		width: 100%;
+		padding: 10px;
+		font-size: 1em;
+		display: block;
+		min-height: 1.5em;
+		border-radius: 15px;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
