@@ -21,6 +21,10 @@
 	background-color: #f7f7f7;
 }
 
+.active {
+	border-radius: 100%;
+}
+
 @media screen and (max-width: 480px) {
 	#home .entry-wrapper, #page .entry-wrapper {
 		max-width: 90%;
