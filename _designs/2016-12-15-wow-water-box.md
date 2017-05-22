@@ -6,4 +6,4 @@ date: 2016-12-15
 gridcategory: packaging
 alttext: A package for a product called "Wow Water".
 ---
-This is a description for the project.
+Packaging design for a product called "Wow Water".

@@ -6,4 +6,4 @@ date: 2017-3-14
 gridcategory: packaging
 alttext: A vintage postcard depicting Mars.
 ---
-This is a description for the project.
+A vintage postcard from Mars.

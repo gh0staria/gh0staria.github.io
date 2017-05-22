@@ -6,4 +6,4 @@ date: 2017-4-20
 gridcategory: logos
 alttext: A branding mockup for a hotel called Time Warp Hotel.
 ---
-This is a description for the project.
+A branding mockup for a hotel called Time Warp Hotel.

@@ -6,4 +6,4 @@ date: 2017-3-31
 gridcategory: posterscontests
 alttext: A series of 3 posters with information about the gender gap in technology.
 ---
-This is a description for the project.
+A 3-poster PSA campaign concerning the issue of the gender gap in technology.
