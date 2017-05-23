@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: design-page
 title: To The Moon Package
-thumbnail: "/images/thumbnails/thumb_ToTheMoonBox.jpg"
+filename: "ToTheMoonBox.jpg"
 date: 2016-12-14
 gridcategory: packaging
 alttext: A package for a card game called "To The Moon".
 ---
+<img class="design-image" src="/images/designs/ToTheMoonPackaging.jpg">
 Packaging design for a card game called "To The Moon".

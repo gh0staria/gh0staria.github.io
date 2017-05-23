@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: design-page
 title: Wow Water Package
-thumbnail: "/images/thumbnails/thumb_WowWaterPackage.jpg"
+filename: "WowWaterPackage.jpg"
 date: 2016-12-15
 gridcategory: packaging
 alttext: A package for a product called "Wow Water".

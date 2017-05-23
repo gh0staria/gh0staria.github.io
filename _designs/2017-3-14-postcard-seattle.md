@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: design-page
 title: Seattle Vintage Postcard
-thumbnail: "/images/thumbnails/thumb_SeattleCardMockup.jpg"
+filename: "SeattleCardMockup.jpg"
 date: 2017-3-14
-gridcategory: packaging
+gridcategory: misc
 alttext: A vintage postcard from Seattle, Washington.
 ---
 A vintage postcard from Seattle, Washington.

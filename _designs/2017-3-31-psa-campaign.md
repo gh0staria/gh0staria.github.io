@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: design-page
 title: PSA Campaign Posters
-thumbnail: "/images/thumbnails/thumb_PSAPosterMockup.jpg"
+filename: "PSAPosterMockup.jpg"
 date: 2017-3-31
 gridcategory: posterscontests
 alttext: A series of 3 posters with information about the gender gap in technology.
