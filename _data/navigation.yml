@@ -5,8 +5,11 @@
 - title: Portfolio
   url: /portfolio/
 
-- title: About & Contact
+- title: About
   url: /about/
+  
+- title: Contact
+  url: /contact/
 
 - title: Search
   url: /search/
