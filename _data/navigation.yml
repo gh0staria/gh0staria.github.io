@@ -1,15 +1,15 @@
-# Site navigation links
-- title: Home
-  url: /
+# Site navigation links  
+- title: Search
+  url: /search/
+  
+- title: Contact
+  url: /contact/
+  
+- title: About
+  url: /about/
 
 - title: Portfolio
   url: /portfolio/
 
-- title: About
-  url: /about/
-  
-- title: Contact
-  url: /contact/
-
-- title: Search
-  url: /search/
+- title: Home
+  url: /

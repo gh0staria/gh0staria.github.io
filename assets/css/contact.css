@@ -29,7 +29,7 @@ textarea {
   font-size: 125%;
 }
 button {
-  float: right;
+  float: left;
 }
 #name, #email {
   width: 60%;
