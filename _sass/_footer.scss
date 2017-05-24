@@ -4,15 +4,20 @@
 
 .footer-wrapper {
   @include clearfix;
-  margin: 2em auto;
-  text-align: center;
-  font-family: $alt-font;
-  @include font-size(14);
-  font-style: italic;
+  margin: 5px auto;
+	margin-bottom: 0px;
   color: lighten($text-color,20);
-
-  a {
-    color: lighten($text-color,20);
+	border-top: 1px solid #fdfdfd;
+	font-size: .8em;
+	background-color: #fdfdfd;
+	padding: 2px;
+	color: #464646;
+	width:100%;
+	text-align: center;
+	font-family: $alt-font;
+		
+	a {
+    color: lighten($text-color, 20);
   }
 }
 

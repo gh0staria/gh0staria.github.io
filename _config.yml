@@ -2,7 +2,7 @@
 
 title: lizgw
 locale: en_US
-description: Describe your website here.
+description: "Liz Wigglesworth's website!"
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -11,10 +11,10 @@ url: http://localhost:4000
 collections:
   designs:
     output: true
-    permalink: /designs/:path/
+    permalink: /designs/:year/:title/
   games:
     output: true
-    permalink: /games/:path/
+    permalink: /games/:year/:title/
 
 # Pagination
 permalink: /blog/:categories/:year/:month/:day/:title/
