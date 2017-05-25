@@ -75,7 +75,6 @@
   font-family: $base-font;
   @include font-size(16);
   font-weight: 400;
-  font-style: italic;
   @include animation-duration(1s);
   @include animation-delay(1s);
 
