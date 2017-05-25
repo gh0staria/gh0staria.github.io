@@ -1,0 +1,9 @@
+---
+layout: design-page
+title: DART Poster
+filename: "DARTMockup.jpg"
+date: 2017-1-24
+gridcategory: posterscontests
+alttext: A poster for DART depicting a train in the clouds.
+---
+An entry for the 2017 DART poster contest.
