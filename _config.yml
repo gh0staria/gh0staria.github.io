@@ -46,15 +46,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Liz Wigglesworth
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: 
   disqus-shortname:
   twitter: lizgwigg
   github: lizgw
-  instagram: #username
+  instagram: lizgwigg
   flickr: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-63911647-1
     verify:
     ad-client:
     ad-slot:
