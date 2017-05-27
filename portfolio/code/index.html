@@ -1,0 +1,31 @@
+---
+layout: grid
+title: Code Portfolio
+filtering: ["games", "other"]
+---
+
+{% for proj in site.codeprojects reversed %}
+
+<div class="grid-item {{ proj.gridcategory }}">
+	{% if proj.redirect %}
+	
+	<a href="{{ proj.redirect }}">
+		<div class="hover-info">
+			<h3>{{proj.title}}</h3>
+		</div>
+		<img src="/images/thumbnails/codeprojects/thumb_{{ proj.filename }}" alt="{{ proj.alttext }}">	
+	</a>
+		
+	{% else %}
+	
+	<a href="{{ proj.url }}">
+		<div class="hover-info">
+			<h3>{{proj.title}}</h3>
+		</div>
+		<img src="/images/thumbnails/codeprojects/thumb_{{ proj.filename }}" alt="{{ proj.alttext }}">	
+	</a>
+		
+	{% endif %}
+</div>
+
+{% endfor %}

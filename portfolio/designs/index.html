@@ -1,0 +1,18 @@
+---
+layout: grid
+title: Design Portfolio
+filtering: ["apparel", "posterscontests", "packaging", "logos", "misc"]
+---
+
+{% for design in site.designs reversed %}
+
+<div class="grid-item {{design.gridcategory}}">
+	<a href="{{design.url}}">
+		<div class="hover-info">
+			<h3>{{design.title}}</h3>
+		</div>
+		<img src="/images/thumbnails/thumb_{{ design.filename }}" alt="{{design.alttext}}">	
+	</a>
+</div>
+
+{% endfor %}
