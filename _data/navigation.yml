@@ -8,8 +8,11 @@
 - title: About
   url: /about/
 
-- title: Portfolio
-  url: /portfolio/
+- title: Designs
+  url: /portfolio/designs/
+
+- title: Code
+  url: /portfolio/code/
 
 - title: Home
   url: /
