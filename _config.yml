@@ -5,16 +5,16 @@ locale: en_US
 description: "I'm Liz Wigglesworth: programmer, designer & high school student."
 logo: site-logo.png
 search: true
-url: http://lizgw.github.io
+url: #http://lizgw.github.io
 
 # Jekyll configuration
 collections:
   designs:
     output: true
-    permalink: /designs/:year/:title/
-  games:
+    permalink: /portfolio/designs/:year/:title/
+  codeprojects:
     output: true
-    permalink: /games/:year/:title/
+    permalink: /portfolio/code/:title/
 
 # Pagination
 permalink: /blog/:categories/:year/:month/:day/:title/
