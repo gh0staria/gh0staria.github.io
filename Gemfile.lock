@@ -51,7 +51,6 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -62,7 +61,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-sitemap
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.14.6
+   1.15.3
