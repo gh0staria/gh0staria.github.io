@@ -1,6 +1,6 @@
 /* Make page wider */
 #home .entry-wrapper, #page .entry-wrapper {
-    max-width: 75%;
+  max-width: 1310px;
 }
 
 .grid-item {
@@ -83,10 +83,10 @@
 	#home .entry-wrapper, #page .entry-wrapper {
 		max-width: 90%;
 	}
-	
+
 	.grid-sizer,
 	.grid-item { width: 48%; }
-	
+
 	.grid-sorting button {
 		width: 100% !important;
 		padding: 10px;
@@ -101,7 +101,7 @@
 	#home .entry-wrapper, #page .entry-wrapper {
 		max-width: 90%;
 	}
-	
+
 	.grid-sizer,
 	.grid-item { width: 48%; }
 }

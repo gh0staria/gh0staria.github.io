@@ -3,7 +3,8 @@ layout: design-page
 title: PSA Campaign Posters
 filename: "PSAPosterMockup.jpg"
 date: 2017-3-31
-gridcategory: posterscontests
-alttext: A series of 3 posters with information about the gender gap in technology.
+gridcategory: posters
+alttext: Women In Technology PSA Campaign
 ---
-A 3-poster PSA campaign concerning the issue of the gender gap in technology.
+<img class="design-image" src="/images/designs/PSADetailed.jpg">
+The goal of this project was to select an issue that you were passionate about and design a 3-poster campaign about it. We had to use statistics from an organization related to the cause. I chose to design a campaign centered around the gender gap in technology, using information from Girls Who Code.

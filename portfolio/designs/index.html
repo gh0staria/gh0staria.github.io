@@ -1,7 +1,7 @@
 ---
 layout: grid
 title: Design Portfolio
-filtering: ["apparel", "posterscontests", "packaging", "logos", "misc"]
+filtering: ["apparel", "posters", "packaging", "misc"]
 ---
 
 {% for design in site.designs reversed %}
@@ -11,7 +11,7 @@ filtering: ["apparel", "posterscontests", "packaging", "logos", "misc"]
 		<div class="hover-info">
 			<h3>{{design.title}}</h3>
 		</div>
-		<img src="/images/thumbnails/thumb_{{ design.filename }}" alt="{{design.alttext}}">	
+		<img src="/images/thumbnails/thumb_{{ design.filename }}" alt="{{design.alttext}}">
 	</a>
 </div>
 

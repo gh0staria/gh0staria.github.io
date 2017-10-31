@@ -26,15 +26,15 @@
 				<button type="button" data-filter="packaging" class="filters-btn">Packaging</button>
 				<button type="button" data-filter="logos" class="filters-btn">Logos</button>
 				<button type="button" data-filter="misc" class="filters-btn">Misc.</button>-->
-				
+
 				{% capture num_buttons %}{{ page.filtering.size | plus:1 }}{% endcapture %}
 				{% capture button_width %}{{ 100 | divided_by:num_buttons }}{% endcapture %}
-				
-				<button type="button" data-filter="" class="active filters-btn" style="width: {{button_width}}%">All</button>
+
+				<button type="button" data-filter="" class="active filters-btn" style="width: {{button_width}}%">all</button>
 				{% for cat in page.filtering %}
 				<button type="button" data-filter="{{ cat }}" class="filters-btn" style="width: {{button_width}}%"> {{ cat }} </button>
 				{% endfor %}
-			</div> 
+			</div>
 			<div class="grid">
 				<div class="grid-sizer"></div>
 				{{ content }}
