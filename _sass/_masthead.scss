@@ -35,20 +35,10 @@
 .site-logo {
 
   img {
-    width: 200px;
-    height: 179px;
+    width: 250px;
+    height: auto;
     @include animation-duration(1s);
     @include animation-delay(.05s);
-
-    @include media($medium) {
-      width: 300px;
-      height: 268px;
-    }
-
-    @include media($large) {
-      width: 400px;
-      height: 358px;
-    }
   }
 }
 
