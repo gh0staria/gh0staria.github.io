@@ -1,0 +1,10 @@
+# site config
+title: lizgw
+locale: en_US
+description: "I'm Liz Wigglesworth: programmer, designer, and high school student."
+
+# jekyll config
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/
