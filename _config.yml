@@ -8,3 +8,11 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:title/
+
+defaults:
+ -
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "page"

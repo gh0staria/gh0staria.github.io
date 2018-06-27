@@ -1,0 +1,16 @@
+/* test */
+p {
+    color: red;
+}
+
+/* PAGE */
+.section {
+    padding: 12px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background: blue; /* test */
+
+    padding: 0;
+}
