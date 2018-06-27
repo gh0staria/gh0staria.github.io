@@ -13,6 +13,10 @@ html, body {
     width: 100%;
 }
 
+.main-container {
+    padding: 0;
+}
+
 .h100
 {
     height: 100%;
@@ -38,7 +42,7 @@ html, body {
     height: 100%;
     padding: 1.5rem;
     position: fixed;
-    top: 0;
+    width: 20%;
 }
 
 .sidebar h1 {
