@@ -13,9 +13,13 @@ html, body {
     width: 100%;
 }
 
+.h100
+{
+    height: 100%;
+}
+
 .columns {
     margin: 0;
-    height: 100%;
 }
 
 .column {
@@ -33,7 +37,8 @@ html, body {
 
     height: 100%;
     padding: 1.5rem;
-    position: relative;
+    position: fixed;
+    top: 0;
 }
 
 .sidebar h1 {
@@ -66,4 +71,9 @@ footer {
     left: 0;
     padding: 1rem;
     width: 100%;
+}
+
+/* MAIN HOMEPAGE */
+.home-main {
+    padding: 2rem;
 }
