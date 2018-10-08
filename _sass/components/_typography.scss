@@ -42,6 +42,10 @@ a {
    }
 }
 
+.post-listing a {
+  border-bottom: 1px dashed $primary;
+}
+
 //
 // Header Styles
 //
