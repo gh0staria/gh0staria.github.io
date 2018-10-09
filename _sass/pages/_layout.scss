@@ -1,3 +1,14 @@
+::-moz-selection {
+	background-color: lighten($secondary, 65%);
+	color: $secondary;
+	text-shadow: none;
+}
+::selection {
+	background-color: lighten($secondary, 65%);
+	color: $secondary;
+	text-shadow: none;
+}
+
 /* LAYOUT CSS */
 .cover {
   background-color: $background-color;
