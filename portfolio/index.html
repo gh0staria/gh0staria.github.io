@@ -1,5 +1,32 @@
 ---
 title: portfolio
-layout: page
+layout: portfolio
 ---
 
+{% for proj in site.portfolio_items %}
+
+<div class="portfolio-item {{proj.gridcategory}}" data-groups="[ ' {{ proj.gridcategory }}' ]">
+
+    {% if proj.redirect %}
+	
+	<a href="{{ proj.redirect }}">
+		<div class="hover-info">
+			<h3>{{proj.title}}</h3>
+		</div>
+		<img src="/img/thumbnails/thumb_{{ proj.filename }}" alt="{{ proj.alttext }}">	
+	</a>
+		
+	{% else %}
+	
+	<a href="{{ proj.url }}">
+		<div class="hover-info">
+			<h3>{{proj.title}}</h3>
+		</div>
+		<img src="/img/thumbnails/thumb_{{ proj.filename }}" alt="{{ proj.alttext }}">	
+    </a>
+    
+    {% endif %}
+
+</div>
+
+{% endfor %}
