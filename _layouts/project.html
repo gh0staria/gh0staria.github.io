@@ -4,6 +4,10 @@ layout: page
 
 {{ content }}
 
+{% if page.filename %}
+    <img class="project-image" src="../../img/portfolio-images/{{page.filename}}">
+{% endif %}
+
 {% if page.extra-images %}
 
     {% assign imagepaths = page.extra-images | split: ", " %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: The Walking Lady
 gridcategory: games
 alttext: A simple falling objects game.

@@ -1,5 +1,5 @@
 ---
-layout: design-page
+layout: project
 title: Knight Theatre Poster
 filename: "TheatrePoster.jpg"
 date: 2017-7-27

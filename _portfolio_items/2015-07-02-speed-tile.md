@@ -1,5 +1,5 @@
 ---
-layout: design-page
+layout: project
 title: Speed Tile
 gridcategory: games
 alttext: Click the right color as fast as you can!

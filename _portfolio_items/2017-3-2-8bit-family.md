@@ -1,5 +1,5 @@
 ---
-layout: design-page
+layout: project
 title: 8-Bit Family
 filename: "8BitFamily.jpg"
 date: 2017-3-2

@@ -1,5 +1,5 @@
 ---
-layout: design-page
+layout: project
 title: DART Poster
 filename: "DARTMockup.jpg"
 date: 2017-1-24
