@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.extra-images %}
+
+    {% assign imagepaths = page.extra-images | split: ", " %}
+
+    {% for filename in imagepaths %}
+
+        <img class="project-image" src="../../img/portfolio-images/{{filename}}">
+
+    {% endfor %}
+
+{% endif %}
