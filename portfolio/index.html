@@ -3,7 +3,7 @@ title: portfolio
 layout: portfolio
 ---
 
-{% for proj in site.portfolio_items %}
+{% for proj in site.portfolio_items reversed %}
 
 <div class="portfolio-item {{proj.gridcategory}}" data-groups="[ ' {{ proj.gridcategory }}' ]">
 

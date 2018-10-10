@@ -4,5 +4,6 @@ var sizer = element.querySelector('.sizer');
 
 var shuffleInstance = new Shuffle(element, {
     itemSelector: '.portfolio-item',
-    sizer: sizer
+    sizer: sizer,
+    gutterWidth: 20
 });
