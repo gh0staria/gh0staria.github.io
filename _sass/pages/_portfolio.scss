@@ -1,7 +1,11 @@
+.portfolio-wrapper {
+	text-align: center;
+}
+
 .filter-buttons {
 	display: block;
 	width: 100%;
-	overflow: hidden;
+	overflow: hidden; // ensure div has height
 
     button {
         border-radius: 1rem;
@@ -23,10 +27,13 @@
 }
 
 .portfolio-item {
-    margin-bottom: 10px;
+    padding: 0.5rem;
 	display: flex;
 	a {
 		border: none;
+	}
+	h3 {
+		display: none;
 	}
 }
 
