@@ -2,6 +2,7 @@
 layout: project
 title: Fast Food Flip
 gridcategory: games
+type: code
 alttext: Fast Food Flip
 filename: "fastfoodflip.jpg"
 date: 2017-09-07

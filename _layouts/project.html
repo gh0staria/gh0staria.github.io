@@ -4,7 +4,7 @@ layout: page
 
 {{ content }}
 
-{% if page.filename %}
+{% if page.filename and page.type == "design" %}
     <img class="project-image" src="../../img/portfolio-images/{{page.filename}}">
 {% endif %}
 

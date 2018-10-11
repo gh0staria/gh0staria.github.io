@@ -4,6 +4,7 @@ title: To The Moon Package
 filename: "ToTheMoonPackaging.jpg"
 date: 2016-12-14
 gridcategory: packaging
+type: design
 alttext: To the Moon Card Game Packaging
 extra-images: "ToTheMoonBox.jpg"
 ---

@@ -4,6 +4,7 @@ title: PSA Campaign Posters
 filename: "PSAPosterMockup.jpg"
 date: 2017-3-31
 gridcategory: posters
+type: design
 alttext: Women In Technology PSA Campaign
 extra-images: "PSADetailed.jpg"
 ---

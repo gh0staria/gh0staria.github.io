@@ -2,6 +2,7 @@
 layout: project
 title: Star Runner
 gridcategory: games
+type: code
 alttext: Star Runner
 filename: "starrunner.jpg"
 extra-images: "starrunner-cap1.png, starrunner-cap2.png, starrunner-cap3.png, starrunner-cap4.png, starrunner-cap5.png, starrunner-cap6.png"
