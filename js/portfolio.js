@@ -10,6 +10,7 @@ var shuffleInstance = new Shuffle(element, {
 });
 
 function initialize() {
+    document.getElementById("allfilter").onclick = filterGrid;
     document.getElementById("codefilter").onclick = filterGrid;
     document.getElementById("designfilter").onclick = filterGrid;
 }
@@ -17,7 +18,9 @@ function initialize() {
 function filterGrid(event)
 {
     var filterby = event.target.innerText; // get text of button
-    console.log(filterby);
 
-    shuffleInstance.filter(filterby);
+    if (filterby != "all")
+        shuffleInstance.filter(filterby);
+    else
+        shuffleInstance.filter(Shuffle.ALL_ITEMS);
 }
