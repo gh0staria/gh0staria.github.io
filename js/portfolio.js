@@ -13,6 +13,9 @@ function initialize() {
     document.getElementById("allfilter").onclick = filterGrid;
     document.getElementById("codefilter").onclick = filterGrid;
     document.getElementById("designfilter").onclick = filterGrid;
+
+    // setup "all" to be highlighted
+    document.getElementById("allfilter").classList.add("btn-selected");
 }
 
 function filterGrid(event)
@@ -23,4 +26,12 @@ function filterGrid(event)
         shuffleInstance.filter(filterby);
     else
         shuffleInstance.filter(Shuffle.ALL_ITEMS);
+
+    // unselect everything
+    document.getElementById("allfilter").classList.remove("btn-selected");
+    document.getElementById("codefilter").classList.remove("btn-selected");
+    document.getElementById("designfilter").classList.remove("btn-selected");
+
+    // select the right one
+    document.getElementById(event.target.id).classList.add("btn-selected");
 }
