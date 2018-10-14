@@ -5,7 +5,7 @@ layout: portfolio
 
 {% for proj in site.portfolio_items reversed %}
 
-<div class="portfolio-item {{proj.gridcategory}}" data-groups="[ ' {{ proj.gridcategory }}' ]">
+<div class="portfolio-item {{proj.gridcategory}}" data-groups='["{{ proj.type }}", "{{ proj.gridcategory }}"]''>
 
     {% if proj.redirect %}
 	
