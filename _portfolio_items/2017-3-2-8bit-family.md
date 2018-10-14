@@ -8,3 +8,5 @@ type: design
 alttext: 8-Bit Family
 ---
 A pseudo-pixel art version of my family and I. Created in illustrator.
+
+This project was created in March 2017 as a part of my Graphic Design & Illustration class.

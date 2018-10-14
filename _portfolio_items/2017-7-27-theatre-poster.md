@@ -8,3 +8,5 @@ type: design
 alttext: Knight Theatre Poster
 ---
 A poster for my school's theatre program.
+
+This project was created during Tech Boot Camp in the summer of 2017.

@@ -8,3 +8,5 @@ type: design
 alttext: DART poster
 ---
 An entry for the 2017 DART poster contest.
+
+This project was created as a part of my Graphic Design & Illustration class.
