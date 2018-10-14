@@ -7,7 +7,7 @@ title: lizgw
 email:
 description: A simple and awesome blog theme powered by jekyll.
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "jekyll", "programming", "design"]
 
 #
 ###################################
@@ -41,7 +41,7 @@ owner:
   name: Liz Wigglesworth
   avatar: 
   job: 
-  bio: programmer, writer, student
+  bio: programmer & designer
   email:
   disqus-shortname:
   twitter: lizgwigg
