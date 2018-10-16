@@ -1,0 +1,101 @@
+.portfolio-wrapper {
+	text-align: center;
+}
+
+.filter-buttons {
+	display: block;
+	width: 100%;
+	overflow: hidden; // ensure div has height
+	margin-bottom: 30px;
+
+    button {
+		background-color: lighten($primary, 30%);
+		border: 1px solid $primary;
+		color: $primary;
+		padding: 5px 24px;
+		cursor: pointer;
+		float: left;
+		width: 33.33%;
+
+        &:hover {
+			background: lighten($primary, 15);
+			color: white;
+		}
+		
+		&:not(:last-child) {
+			border-right: none; /* prevent double borders */
+		}
+
+		&:first-child {
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+
+		&:last-child {
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+		&.btn-selected
+		{
+			background-color: $primary;
+			color: white;
+		}
+
+	}
+	
+	/* Clear floats (clearfix hack) */
+	&:after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+
+.sizer {
+    width: 25%;
+    background: red;
+    //height: 50px;
+    display: block;
+}
+
+.portfolio-item {
+    padding: 0.5rem;
+	display: flex;
+	a {
+		border: none;
+	}
+	h3 {
+		display: none;
+	}
+}
+
+// project pages
+.project-image {
+	display: block;
+	margin: 15px auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	.sizer,
+	.portfolio-item { 
+		width: 48%;
+		margin-top: 25px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.sizer,
+	.portfolio-item {width: 48%; }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1052px) {
+	.sizer,
+	.portfolio-item { width: 31%; }
+}
+
+@media screen and (min-width: 1053px) {
+	.sizer,
+	.portfolio-item { width: 24%; }
+}

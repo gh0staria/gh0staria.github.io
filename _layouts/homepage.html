@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="homepage">
+    <img src="../img/favicon128.png">
+    <h1>lizgw</h1>
+    <ul>
+        {% for page in site.pages %} {% if page.title and page.gridcategory == nil %}
+        <li>
+            <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+        </li>
+        {% endif %} {% endfor %}
+    </ul>
+</div>
