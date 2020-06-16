@@ -28,6 +28,7 @@ body {
   background: $white;
   color: $dark;
   font-family: $bodyFont;
+  font-size: 1.1rem;
 }
 
 a {
@@ -102,6 +103,11 @@ a:hover {
   flex-grow: 1;
   height: 100%;
   box-sizing: border-box;
+  max-width: 75%;
+}
+
+.content h1 {
+  color: $mainColor;
 }
 
 .pattern-background {
