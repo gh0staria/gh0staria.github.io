@@ -1,3 +1,12 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-title: "lizgw" # the name of your site, e.g. ACME Corp.
+title: "lizgw"
+
+url: "" # the base hostname & protocol for the site, e.g. http://example.com
+baseurl: "/" # the subpath , e.g. /blog
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title
+  portfolio:
+    output: true
+    permalink: /:collection/:title

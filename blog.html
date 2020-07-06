@@ -1,5 +1,16 @@
 ---
+title: Blog
 layout: default
 permalink: /blog
 ---
 <h1>Blog</h1>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{post.url}}">{{  post.title }}</a>
+      <span class="post-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
+    </li>
+  {% else %}
+    <li>There's nothing here yet!</li>
+  {% endfor %}
+</ul>

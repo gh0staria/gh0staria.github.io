@@ -1,5 +1,5 @@
 ---
 layout: home
-title: "Happy Jekylling!"
+title: Home
 ---
-Hey there! I’m [Liz](#) and I like to [write code](#). Sometimes I write [blog posts](#), too. I’m currently working towards my B.S. in Computer Science and [reading a lot](#) about technology and cybersecurity.
+Hey there! I’m [Liz](/about) and I like to [write code](/portfolio). Sometimes I write [blog posts](/blog), too. I’m currently working towards my B.S. in Computer Science and [reading a lot](/reading-list) about technology and cybersecurity.
