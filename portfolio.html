@@ -1,5 +1,20 @@
 ---
+title: Portfolio
 layout: default
 permalink: /portfolio
 ---
 <h1>Portfolio</h1>
+<ul class="portfolio">
+  {% assign sorted = site.portfolio | sort: 'date' %}
+  {% for item in sorted reversed %}
+    <li>
+      <a href="{{ item.url }}"><img src="{{ item.thumbnail }}" alt="{{ item.title }} thumbnail" /></a>
+      <div class="portfolio-item-details">
+        <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+        <p>{{ item.timerange }}</p>
+        <p>{{ item.description }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+<p>View more projects & experiments on <a href="https://github.com/lizgw" target="_blank">my GitHub</a>!</p>
