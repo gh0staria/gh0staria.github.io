@@ -199,3 +199,17 @@ a:hover {
   display: block;
   padding: 1rem;
 }
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about img {
+  max-width: 400px;
+}
+
+.about section {
+  padding: 0.5rem;
+  flex-shrink: 1;
+}
