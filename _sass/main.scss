@@ -103,33 +103,6 @@ a:hover {
   max-width: 24px;
 }
 
-// on mobile...
-@media screen and (max-width: $mobile-breakpoint) {
-  .container {
-    flex-direction: column;
-    max-width: 100%;
-  }
-  .content {
-    position: static;
-    max-width: 100%;
-    padding: 0.25rem;
-  }
-  .sidebar {
-    padding: 0.25rem 1rem;
-    min-width: 100%;
-    height: auto;
-    text-align: center;
-    position: static;
-  }
-  .sidebar-links {
-    margin-top: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-}
-
 .content {
   padding: 2rem;
   flex-grow: 1;
@@ -244,4 +217,50 @@ a:hover {
 .about section {
   padding: 0.5rem;
   flex-shrink: 1;
+}
+
+// on mobile...
+@media screen and (max-width: $mobile-breakpoint) {
+  .container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .content {
+    position: static;
+    max-width: 100%;
+    padding: 0.25rem;
+  }
+  .content-container {
+    max-width: 90%;
+  }
+  .sidebar {
+    padding: 0.25rem 1rem;
+    min-width: 100%;
+    height: auto;
+    text-align: center;
+    position: static;
+  }
+  .sidebar-links {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  // homepage
+  .home p {
+    font-size: 1.5rem;
+    max-width: 90%;
+  }
+  // portfolio
+  .portfolio li {
+    flex-direction: column;
+    padding: 0.5rem 0;
+  }
+  .portfolio-item-details {
+    padding: 0;
+  }
+  .portfolio img {
+    max-width: 100%;
+  }
 }
