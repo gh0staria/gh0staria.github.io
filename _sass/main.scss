@@ -223,6 +223,10 @@ a:hover {
   flex-shrink: 1;
 }
 
+.credit {
+  font-size: 0.75rem;
+}
+
 // on mobile...
 @media screen and (max-width: $mobile-breakpoint) {
   .container {
