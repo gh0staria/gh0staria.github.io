@@ -14,10 +14,9 @@ This page is a list of books & articles that I’ve read and want to share. The 
   - A book of programming patterns (related to *[Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)*) that can be used in games & other software for better code organization.
 - ***Broad Band* by Claire L. Evans - check out your local library/bookstore**
   - A great look into the history of technology, the internet, and the roles that women have played.
-- **[Goodbye Big Five](https://gizmodo.com/c/goodbye-big-five)**
-  - This series of articles chronicles the journey of a Gizmodo reporter as she tries to block [Amazon](https://gizmodo.com/i-tried-to-block-amazon-from-my-life-it-was-impossible-1830565336), [Facebook](https://gizmodo.com/i-cut-facebook-out-of-my-life-surprisingly-i-missed-i-1830565456), [Google](https://gizmodo.com/i-cut-google-out-of-my-life-it-screwed-up-everything-1830565500), [Microsoft](https://gizmodo.com/i-cut-microsoft-out-of-my-life-or-so-i-thought-1830863898), [Apple](https://gizmodo.com/i-cut-apple-out-of-my-life-it-was-devastating-1831063868), and then [all of them at once](https://gizmodo.com/i-cut-the-big-five-tech-giants-from-my-life-it-was-hel-1831304194) from her life. It's definitely an eye-opener.
-
 
 ## Security
+- **[Highly Evasive Attacker Leverages SolarWinds Supply Chain to Compromise Multiple Global Victims With SUNBURST Backdoor](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html)**
+  - This is FireEye's writeup of the SolarWinds supply chain attack, including technical details about the malware and detection opportunities.
 - **[A DIY Guide to Feminist Cybersecurity](https://hackblossom.org/cybersecurity/)**
   - A handy guide to protecting yourself and your data online. Beginner friendly!
