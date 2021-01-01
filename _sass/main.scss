@@ -274,4 +274,10 @@ a:hover {
   .portfolio img {
     max-width: 100%;
   }
+  .about {
+    flex-direction: column;
+  }
+  .about section, .about section img {
+    max-width: 100%;
+  }
 }
