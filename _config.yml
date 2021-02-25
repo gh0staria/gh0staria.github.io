@@ -1,7 +1,12 @@
-title: "lizgw"
+title: "Liz Wigglesworth"
+description: "developer & cybersecurity enthusiast"
+author: "Liz Wigglesworth"
 
-url: "" # the base hostname & protocol for the site, e.g. http://example.com
+url: "https://www.lizwigg.com" # the base hostname & protocol for the site, e.g. http://example.com
 baseurl: "/" # the subpath , e.g. /blog
+
+plugins:
+  - jekyll-feed
 
 collections:
   posts:
