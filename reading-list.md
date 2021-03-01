@@ -16,6 +16,9 @@ This page is a list of books & articles that I’ve read and want to share. The 
   - A great look into the history of technology, the internet, and the roles that women have played.
 
 ## Security
+- **[Public Key Cryptography’s Impact on Society: How Diffie and Hellman Changed the World](https://www.semanticscholar.org/paper/Public-Key-Cryptography%E2%80%99s-Impact-on-Society%3A-How-Oorschot/f980bb7aec54e7f69522883efaa27d0fcee92f40)**
+  - A great paper that details Diffie and Hellman's work and explains the importance of public-key cryptography in daily life.
+  - The original [New directions in cryptography](https://ieeexplore.ieee.org/document/1055638) paper is a great read as well.
 - **[Highly Evasive Attacker Leverages SolarWinds Supply Chain to Compromise Multiple Global Victims With SUNBURST Backdoor](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html)**
   - This is FireEye's writeup of the SolarWinds supply chain attack, including technical details about the malware and detection opportunities.
 - **[A DIY Guide to Feminist Cybersecurity](https://hackblossom.org/cybersecurity/)**
