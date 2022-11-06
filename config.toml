@@ -1,0 +1,50 @@
+baseURL = 'https://www.lizwigg.com/'
+languageCode = 'en-us'
+title = 'Liz Wigglesworth'
+theme = 'hugo-theme-shell'
+
+[Params]
+# Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+description = "Liz Wigglesworth"
+
+[Params.Terminal]
+# Note: gogh theme: https://mayccoll.github.io/Gogh/
+scheme = "Nord"
+
+userName = "liz"
+pcName = "laptop"
+workDir = "website"
+profile = "profile.txt"
+
+# Note: speed at which text is displayed on the terminal
+# Note: if set to 0, typing animation will be disabled
+# Note:
+# Note: if you want to enable Mathjax, you need to set it to 0
+# Note: and set "math: true" at front matter in your Markdown file
+ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+commandDelay = 40 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+# Note: speed at which text is displayed on the activity pages
+# Note: if set to 0, typing animation will be disabled
+titleDelay = 0 # title speed : "title" in front matter
+contentDelay = 0 # content speed : content in .md file
+
+description = """
+
+Hey there! I'm Liz and I like to write code.
+I'm currently working towards my B.S. in Computer
+Science and reading a lot about technology
+and cybersecurity.
+
+"""
+
+[Params.Tree]
+use = true
+folderName = "pages"
+files = [ 
+  ["About", "about.md"],
+]
+
+[Params.Navbar]
+use = false
